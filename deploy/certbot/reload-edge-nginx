@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+
+# The edge-nginx container mounts /etc/letsencrypt read-only. Reload it after a
+# successful Certbot renewal so newly issued certificates are picked up.
+docker exec edge-nginx nginx -s reload
