@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 import HomeLayout from "@site/src/components/homeNew/HomeLayout";
 import HomePageNew from "@site/src/components/homeNew/HomePageNew";
+import { useTranslation } from "react-i18next";
 
 export default function HomeNew() {
+  const { t } = useTranslation();
   useEffect(() => {
     // 旧首页采用固定 REM 布局（设计基准宽度 ~1232px）。
     // 通过按视口等比缩放根字号，使整页布局在大小屏/移动端等比适配，
@@ -56,8 +58,8 @@ export default function HomeNew() {
 
   return (
     <HomeLayout
-      title="Yak Project | 开源网络安全基础设施"
-      description="广泛使用的开源网络安全基础设施"
+      title={t("SiteMetadata.home.title")}
+      description={t("SiteMetadata.home.description")}
     >
       <HomePageNew />
     </HomeLayout>
