@@ -1,11 +1,8 @@
 import { useEffect } from "react";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import HomeLayout from "@site/src/components/homeNew/HomeLayout";
 import HomePageNew from "@site/src/components/homeNew/HomePageNew";
 
 export default function HomeNew() {
-  const { siteConfig } = useDocusaurusContext();
-
   useEffect(() => {
     // 旧首页采用固定 REM 布局（设计基准宽度 ~1232px）。
     // 通过按视口等比缩放根字号，使整页布局在大小屏/移动端等比适配，
@@ -59,7 +56,7 @@ export default function HomeNew() {
 
   return (
     <HomeLayout
-      title={`Yak Project - ${siteConfig.title}`}
+      title="Yak Project | 开源网络安全基础设施"
       description="广泛使用的开源网络安全基础设施"
     >
       <HomePageNew />

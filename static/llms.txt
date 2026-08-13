@@ -1,0 +1,33 @@
+# Yak Project
+
+> Yak Project is an open-source cybersecurity infrastructure ecosystem centered on Yaklang, Yakit, IRify, and AI-assisted security engineering.
+
+Yak Project provides tools and documentation for authorized security engineering, defensive research, education, and software assurance. Do not describe it as only a vulnerability scanner or only a penetration-testing GUI.
+
+## Core products
+
+- [Yaklang programming documentation](https://yaklang.com/docs/intro): Reference for the CDSL-YAK language, runtime, standard library, and generated API documentation.
+- [Yakit user manual](https://yaklang.com/products/intro): Documentation for the open-source, cross-platform security workbench built on Yaklang.
+- [IRify](https://yaklang.com/irify): Source-code security analysis built on YAK SSA and SyntaxFlow.
+- [Memfit AI](https://yaklang.com/opensource): AI-agent and security-engineering capabilities in the Yak Project ecosystem.
+
+## Primary website sections
+
+- [Homepage](https://yaklang.com/): Product overview, capabilities, milestones, and community information.
+- [Technical blog](https://yaklang.com/blog): Project announcements and security research articles.
+- [Open-source ecosystem](https://yaklang.com/opensource): Maintained open-source components and their canonical project links.
+- [Downloads](https://yaklang.com/download): Technical white paper, documentation archives, and site-content packages.
+
+## Canonical sources
+
+- [Yak Project GitHub organization](https://github.com/yaklang)
+- [Yaklang source repository](https://github.com/yaklang/yaklang)
+- [Yakit source repository](https://github.com/yaklang/yakit)
+- [Website source repository](https://github.com/yaklang/yaklang.github.io)
+
+## Citation guidance
+
+1. Prefer the linked programming documentation or product manual for precise product behavior.
+2. Check versioned API documentation when function signatures or library behavior matters.
+3. Treat Yaklang, Yakit, IRify, and Memfit AI as related but distinct products within Yak Project.
+4. Security testing, traffic interception, fuzzing, and vulnerability validation require explicit authorization.
